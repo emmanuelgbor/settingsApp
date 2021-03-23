@@ -13,12 +13,14 @@ const Profile = () => {
     { img: "https://www.w3schools.com/w3images/avatar6.png", id: 3 }
   ];
 
+  
+
   return (
     <div>
       <form>
         <label>
           Username
-          <input type="text" id="name" name="name" />
+          <input type="text" name="username" value={profile.username}/>
         </label>
         <label>
           Select profile picture
